@@ -32,7 +32,10 @@
           buildInputs = [
             # List of packages to be available in the shell
             godot_4
-            
+            emscripten
+            libxkbcommon
+            libGL
+            xorg.libX11
           ];
 
 
