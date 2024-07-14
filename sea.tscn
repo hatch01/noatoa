@@ -1,0 +1,26 @@
+[gd_scene load_steps=5 format=3 uid="uid://djl86yvi3fmlc"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_b1of5"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_srtm0"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_7hqpu"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_urhf1"]
+transparency = 1
+depth_draw_mode = 1
+albedo_color = Color(0, 0.0745098, 0.329412, 0.537255)
+roughness = 0.6
+normal_enabled = true
+
+[node name="Sea" type="Node2D"]
+
+[node name="Water" type="MeshInstance2D" parent="."]
+material = SubResource("ShaderMaterial_b1of5")
+scale = Vector2(300, 300)
+mesh = SubResource("PlaneMesh_srtm0")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(18.885, 0, 0, 0, 18.885, 0, 0, 0, 18.885, 0, 0, 0)
+mesh = SubResource("PlaneMesh_7hqpu")
+surface_material_override/0 = SubResource("StandardMaterial3D_urhf1")
