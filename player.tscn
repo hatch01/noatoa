@@ -1,3 +1,40 @@
-[gd_scene format=3 uid="uid://clacvnb34xddi"]
+[gd_scene load_steps=8 format=3 uid="uid://clacvnb34xddi"]
+
+[ext_resource type="Texture2D" uid="uid://c5ao8rmpbh2dt" path="res://assets/pirate-1.png" id="1_l668b"]
+[ext_resource type="Script" path="res://player.gd" id="1_yxcc8"]
+[ext_resource type="Texture2D" uid="uid://tdom7sd7aobq" path="res://assets/pirate-2.png" id="2_jjks7"]
+[ext_resource type="Texture2D" uid="uid://cshpim8o4hqa7" path="res://assets/pirate-3.png" id="3_d60aj"]
+[ext_resource type="Texture2D" uid="uid://7o52uacpjs1s" path="res://assets/pirate-4.png" id="4_hqv61"]
+[ext_resource type="Texture2D" uid="uid://dlq5ohtpi5etr" path="res://assets/pirate-5.png" id="5_j7xqq"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_oxfyn"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_l668b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_jjks7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_d60aj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_hqv61")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_j7xqq")
+}],
+"loop": true,
+"name": &"default",
+"speed": 1.0
+}]
 
 [node name="Player" type="Node2D"]
+script = ExtResource("1_yxcc8")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(0.05, 0.05)
+sprite_frames = SubResource("SpriteFrames_oxfyn")
+frame = 2
+frame_progress = 0.339667

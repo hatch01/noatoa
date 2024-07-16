@@ -35,7 +35,7 @@ func is_rolling() -> bool:
 	
 func random_frame():
 	# Don't want to linger on one side
-	print("random")
+
 	var last_frame = $Button/AnimatedSprite2D.frame
 	while $Button/AnimatedSprite2D.frame == last_frame:
 		$Button/AnimatedSprite2D.frame = randi() % randi() % 6
