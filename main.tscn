@@ -1,20 +1,10 @@
-[gd_scene load_steps=4 format=3 uid="uid://bncc4j1opw736"]
+[gd_scene load_steps=3 format=3 uid="uid://bncc4j1opw736"]
 
 [ext_resource type="Script" path="res://main.gd" id="1_e2xsm"]
 [ext_resource type="PackedScene" uid="uid://d4ax3c7ox3tsm" path="res://dice.tscn" id="2_3yogy"]
-[ext_resource type="Script" path="res://Button.gd" id="3_0utsk"]
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_e2xsm")
 
 [node name="Dice" parent="." instance=ExtResource("2_3yogy")]
 position = Vector2(246, 129)
-
-[node name="Button" type="Button" parent="."]
-offset_left = 309.0
-offset_top = 76.0
-offset_right = 423.0
-offset_bottom = 190.0
-script = ExtResource("3_0utsk")
-
-[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
