@@ -1,12 +1,9 @@
-[gd_scene load_steps=11 format=3 uid="uid://d4ax3c7ox3tsm"]
+[gd_scene load_steps=8 format=3 uid="uid://d4ax3c7ox3tsm"]
 
 [ext_resource type="Script" path="res://dice.gd" id="1_c51o0"]
 [ext_resource type="Texture2D" uid="uid://o0s2hukp5xd2" path="res://assets/dice-1.svg" id="1_g0lc2"]
 [ext_resource type="Texture2D" uid="uid://cg3nioi68f74f" path="res://assets/dice-2.svg" id="2_4vrfu"]
 [ext_resource type="Texture2D" uid="uid://btkweqqlw76g2" path="res://assets/dice-3.svg" id="3_s5sd2"]
-[ext_resource type="Texture2D" uid="uid://byv3qd7dnpjoy" path="res://assets/dice-4.svg" id="4_2erjc"]
-[ext_resource type="Texture2D" uid="uid://c7ed7xy0kuue4" path="res://assets/dice-5.svg" id="5_ynucf"]
-[ext_resource type="Texture2D" uid="uid://eay7f8yoenh2" path="res://assets/dice-6.svg" id="6_c0fjo"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_seaoq"]
 animations = [{
@@ -19,15 +16,6 @@ animations = [{
 }, {
 "duration": 1.0,
 "texture": ExtResource("3_s5sd2")
-}, {
-"duration": 1.0,
-"texture": ExtResource("4_2erjc")
-}, {
-"duration": 1.0,
-"texture": ExtResource("5_ynucf")
-}, {
-"duration": 1.0,
-"texture": ExtResource("6_c0fjo")
 }],
 "loop": true,
 "name": &"default",
