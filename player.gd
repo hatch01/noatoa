@@ -18,4 +18,4 @@ func _process(delta):
 		on_bark = $AnimatedSprite2D.position.y > -720
 
 func forward(times: int=1):
-	wantedPos += times * Vector2(0, -60)
+	wantedPos += times * Vector2(0, -55)

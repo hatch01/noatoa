@@ -13,6 +13,6 @@ scale = Vector2(300, 300)
 mesh = SubResource("PlaneMesh_srtm0")
 
 [node name="ColorRect" type="ColorRect" parent="."]
-offset_right = 40.0
-offset_bottom = 40.0
+offset_right = 1.0
+offset_bottom = 1.0
 color = Color(0, 0.117647, 0.470588, 1)

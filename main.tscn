@@ -12,12 +12,10 @@ script = ExtResource("1_e2xsm")
 player_scene = ExtResource("4_3veo3")
 
 [node name="Sea" parent="." instance=ExtResource("2_wloxd")]
-position = Vector2(-5, -6)
-scale = Vector2(12.175, 21.125)
+scale = Vector2(500, 900)
 
 [node name="Bridge" parent="." instance=ExtResource("3_gogst")]
-position = Vector2(152, 152)
-scale = Vector2(1.25, 1.835)
+position = Vector2(200, 850)
 
 [node name="Dice" parent="." instance=ExtResource("2_3yogy")]
 position = Vector2(66, 782)

@@ -12,7 +12,7 @@ func _ready():
 	randomize()
 	for i in range(player_count):
 		var player = player_scene.instantiate()
-		var spawnLocation = Vector2(i*75 + 195,790)
+		var spawnLocation = Vector2(i*(55) + 225,900-(45/2)-3)
 		player.position = spawnLocation
 		add_child(player)
 		players.append(player)
