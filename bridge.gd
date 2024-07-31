@@ -5,7 +5,8 @@ const len: int = 14
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	for i in range(len):
+	pass
+"""	for i in range(len):
 		var case = $dark.duplicate()
 		var spawnLocation = Vector2(0,-i*(50+padding))
 		case.position = spawnLocation
@@ -16,7 +17,7 @@ func _ready():
 		add_child(case)
 	# remove the original rectangles
 	$dark.queue_free()
-	$bright.queue_free()
+	$bright.queue_free()"""
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.

@@ -1,21 +1,33 @@
-[gd_scene load_steps=8 format=3 uid="uid://d4ax3c7ox3tsm"]
+[gd_scene load_steps=11 format=3 uid="uid://d4ax3c7ox3tsm"]
 
 [ext_resource type="Script" path="res://dice.gd" id="1_c51o0"]
-[ext_resource type="Texture2D" uid="uid://o0s2hukp5xd2" path="res://assets/dice-1.svg" id="1_g0lc2"]
-[ext_resource type="Texture2D" uid="uid://cg3nioi68f74f" path="res://assets/dice-2.svg" id="2_4vrfu"]
-[ext_resource type="Texture2D" uid="uid://btkweqqlw76g2" path="res://assets/dice-3.svg" id="3_s5sd2"]
+[ext_resource type="Texture2D" uid="uid://baoq584htipmi" path="res://assets/1.svg" id="2_es0lj"]
+[ext_resource type="Texture2D" uid="uid://ds3k2rq0f5vg2" path="res://assets/2.svg" id="3_g1164"]
+[ext_resource type="Texture2D" uid="uid://frnxhisny7lx" path="res://assets/3.svg" id="4_t463d"]
+[ext_resource type="Texture2D" uid="uid://bau1mf4vd8pol" path="res://assets/4.svg" id="5_p8wkd"]
+[ext_resource type="Texture2D" uid="uid://cb0hhy2utu3ij" path="res://assets/5.svg" id="6_qb4u1"]
+[ext_resource type="Texture2D" uid="uid://dwhfhgdu3db62" path="res://assets/6.svg" id="7_gvext"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_seaoq"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("1_g0lc2")
+"texture": ExtResource("2_es0lj")
 }, {
 "duration": 1.0,
-"texture": ExtResource("2_4vrfu")
+"texture": ExtResource("3_g1164")
 }, {
 "duration": 1.0,
-"texture": ExtResource("3_s5sd2")
+"texture": ExtResource("4_t463d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_p8wkd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_qb4u1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_gvext")
 }],
 "loop": true,
 "name": &"default",
@@ -49,16 +61,23 @@ _data = {
 [node name="Dice" type="Node2D"]
 script = ExtResource("1_c51o0")
 
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = -25.0
+offset_top = -25.0
+offset_right = 25.0
+offset_bottom = 25.0
+
 [node name="Button" type="Button" parent="."]
-offset_left = -37.5
-offset_top = -37.5
-offset_right = 37.5
-offset_bottom = 37.5
+offset_left = -25.0
+offset_top = -25.0
+offset_right = 25.0
+offset_bottom = 25.0
 focus_mode = 0
 flat = true
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button"]
-position = Vector2(37.5, 37.5)
+position = Vector2(25, 25)
+scale = Vector2(0.75, 0.75)
 sprite_frames = SubResource("SpriteFrames_seaoq")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="Button/AnimatedSprite2D"]

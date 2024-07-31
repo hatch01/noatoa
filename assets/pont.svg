@@ -1,0 +1,46 @@
+<svg width="96" height="728" viewBox="0 0 96 728" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_273_114)">
+<rect x="3.05176e-05" y="712" width="48" height="16" fill="#E67938"/>
+<rect x="48" y="712" width="48" height="16" fill="#E67938"/>
+</g>
+<g clip-path="url(#clip1_273_114)">
+<rect x="3.05176e-05" width="48" height="48" fill="#FFAE57"/>
+<rect x="3.05176e-05" y="48" width="48" height="48" fill="#EFA351"/>
+<rect x="3.05176e-05" y="96" width="48" height="48" fill="#FFAE57"/>
+<rect x="3.05176e-05" y="144" width="48" height="48" fill="#EFA351"/>
+<rect x="3.05176e-05" y="192" width="48" height="48" fill="#FFAE57"/>
+<rect x="3.05176e-05" y="240" width="48" height="48" fill="#EFA351"/>
+<rect x="3.05176e-05" y="288" width="48" height="48" fill="#FFAE57"/>
+<rect x="3.05176e-05" y="336" width="48" height="48" fill="#EFA351"/>
+<rect x="3.05176e-05" y="384" width="48" height="48" fill="#FFAE57"/>
+<rect x="3.05176e-05" y="432" width="48" height="48" fill="#EFA351"/>
+<rect x="3.05176e-05" y="480" width="48" height="48" fill="#FFAE57"/>
+<rect x="3.05176e-05" y="528" width="48" height="48" fill="#EFA351"/>
+<rect x="3.05176e-05" y="576" width="48" height="48" fill="#FFAE57"/>
+<rect x="3.05176e-05" y="624" width="48" height="48" fill="#EFA351"/>
+<rect x="3.05176e-05" y="672" width="48" height="48" fill="#FFAE57"/>
+<rect x="48" width="48" height="48" fill="#EFA351"/>
+<rect x="48" y="48" width="48" height="48" fill="#FFAE57"/>
+<rect x="48" y="96" width="48" height="48" fill="#EFA351"/>
+<rect x="48" y="144" width="48" height="48" fill="#FFAE57"/>
+<rect x="48" y="192" width="48" height="48" fill="#EFA351"/>
+<rect x="48" y="240" width="48" height="48" fill="#FFAE57"/>
+<rect x="48" y="288" width="48" height="48" fill="#EFA351"/>
+<rect x="48" y="336" width="48" height="48" fill="#FFAE57"/>
+<rect x="48" y="384" width="48" height="48" fill="#EFA351"/>
+<rect x="48" y="432" width="48" height="48" fill="#FFAE57"/>
+<rect x="48" y="480" width="48" height="48" fill="#EFA351"/>
+<rect x="48" y="528" width="48" height="48" fill="#FFAE57"/>
+<rect x="48" y="576" width="48" height="48" fill="#EFA351"/>
+<rect x="48" y="624" width="48" height="48" fill="#FFAE57"/>
+<rect x="48" y="672" width="48" height="48" fill="#EFA351"/>
+</g>
+<defs>
+<clipPath id="clip0_273_114">
+<path d="M3.05176e-05 712H96V720C96 724.418 92.4183 728 88 728H8.00003C3.58175 728 3.05176e-05 724.418 3.05176e-05 720L3.05176e-05 712Z" fill="white"/>
+</clipPath>
+<clipPath id="clip1_273_114">
+<path d="M3.05176e-05 0L96 0L96 712C96 716.418 92.4183 720 88 720H8.00003C3.58175 720 3.05176e-05 716.418 3.05176e-05 712L3.05176e-05 0Z" fill="white"/>
+</clipPath>
+</defs>
+</svg>

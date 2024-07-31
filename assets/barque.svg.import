@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://byv3qd7dnpjoy"
-path="res://.godot/imported/dice-4.svg-2400f2d3fba02951709a60eef483f2dc.ctex"
+uid="uid://i3oe2wxk5ult"
+path="res://.godot/imported/barque.svg-21b9a788779233cbf58d9072cd72b143.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/dice-4.svg"
-dest_files=["res://.godot/imported/dice-4.svg-2400f2d3fba02951709a60eef483f2dc.ctex"]
+source_file="res://assets/barque.svg"
+dest_files=["res://.godot/imported/barque.svg-21b9a788779233cbf58d9072cd72b143.ctex"]
 
 [params]
 

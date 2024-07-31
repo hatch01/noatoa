@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://btkweqqlw76g2"
-path="res://.godot/imported/dice-3.svg-98f2ac31e33b6c550b48ea66a56b5769.ctex"
+uid="uid://dqh4brwt8vnln"
+path="res://.godot/imported/pont.svg-e67b080087ff9dcaf286745fe873e93f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/dice-3.svg"
-dest_files=["res://.godot/imported/dice-3.svg-98f2ac31e33b6c550b48ea66a56b5769.ctex"]
+source_file="res://assets/pont.svg"
+dest_files=["res://.godot/imported/pont.svg-e67b080087ff9dcaf286745fe873e93f.ctex"]
 
 [params]
 

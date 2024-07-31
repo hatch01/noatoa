@@ -1,17 +1,26 @@
-[gd_scene load_steps=2 format=3 uid="uid://cueejakpsdeh8"]
+[gd_scene load_steps=3 format=3 uid="uid://cueejakpsdeh8"]
 
 [ext_resource type="Script" path="res://bridge.gd" id="1_ljlyb"]
+[ext_resource type="Texture2D" uid="uid://dqh4brwt8vnln" path="res://assets/pont.svg" id="2_lry1e"]
 
 [node name="Bridge" type="Node2D"]
 script = ExtResource("1_ljlyb")
 
 [node name="dark" type="ColorRect" parent="."]
+visible = false
 offset_right = 50.0
 offset_bottom = 50.0
 color = Color(0.41432, 0.24368, 2.88785e-07, 1)
+metadata/_edit_use_anchors_ = true
 
 [node name="bright" type="ColorRect" parent="."]
+visible = false
 offset_left = 50.0
 offset_right = 100.0
 offset_bottom = 50.0
 color = Color(0.646423, 0.391393, 1.34766e-06, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(48, 364)
+texture = ExtResource("2_lry1e")

@@ -1,0 +1,22 @@
+<svg width="390" height="844" viewBox="0 0 390 844" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_237_13)">
+<rect width="390" height="844" fill="#41A8BF"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M281 243C281 198.817 245.183 163 201 163L107 163C62.8173 163 27 198.817 27 243L27 535L27 680C27 724.183 62.8172 760 107 760H283C327.183 760 363 724.183 363 680V576C363 553.356 344.644 535 322 535C299.356 535 281 516.644 281 494L281 243Z" fill="#03738C"/>
+<ellipse cx="199" rx="113" ry="413" transform="rotate(-90 199 0)" fill="#7EBFD9" stroke="#BBE2F2" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="10 36 34 42"/>
+<ellipse cx="195" cy="-23" rx="113" ry="409" transform="rotate(-90 195 -23)" fill="#E67938"/>
+<ellipse cx="195" cy="-48" rx="113" ry="409" transform="rotate(-90 195 -48)" fill="#FFAE57"/>
+<path d="M307 261H355" stroke="white" stroke-width="7" stroke-linecap="round"/>
+<path d="M28 328H76" stroke="white" stroke-width="7" stroke-linecap="round"/>
+<path d="M52 448H76" stroke="white" stroke-width="7" stroke-linecap="round"/>
+<path d="M346 472L363 472" stroke="white" stroke-width="7" stroke-linecap="round"/>
+<path d="M41 616H105" stroke="white" stroke-width="7" stroke-linecap="round"/>
+<path d="M272 688H320" stroke="white" stroke-width="7" stroke-linecap="round"/>
+<path d="M261 460L270 470" stroke="white" stroke-width="7" stroke-linecap="round"/>
+<path d="M289 390L296 390" stroke="white" stroke-width="7" stroke-linecap="round"/>
+</g>
+<defs>
+<clipPath id="clip0_237_13">
+<rect width="390" height="844" fill="white"/>
+</clipPath>
+</defs>
+</svg>

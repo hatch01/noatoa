@@ -1,18 +1,9 @@
-[gd_scene load_steps=3 format=3 uid="uid://djl86yvi3fmlc"]
+[gd_scene load_steps=2 format=3 uid="uid://djl86yvi3fmlc"]
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_b1of5"]
-
-[sub_resource type="PlaneMesh" id="PlaneMesh_srtm0"]
+[ext_resource type="Texture2D" uid="uid://dfc8dtwcots1f" path="res://assets/backgroud.svg" id="1_0adrn"]
 
 [node name="Sea" type="Node2D"]
 
-[node name="Water" type="MeshInstance2D" parent="."]
-visible = false
-material = SubResource("ShaderMaterial_b1of5")
-scale = Vector2(300, 300)
-mesh = SubResource("PlaneMesh_srtm0")
-
-[node name="ColorRect" type="ColorRect" parent="."]
-offset_right = 1.0
-offset_bottom = 1.0
-color = Color(0, 0.117647, 0.470588, 1)
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(195, 422)
+texture = ExtResource("1_0adrn")

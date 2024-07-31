@@ -38,7 +38,7 @@ func random_frame():
 
 	var last_frame = $Button/AnimatedSprite2D.frame
 	while $Button/AnimatedSprite2D.frame == last_frame:
-		$Button/AnimatedSprite2D.frame = randi() % randi() % 3
+		$Button/AnimatedSprite2D.frame = randi() % randi() % 6
 
 func _on_button_pressed():
 	if (not is_rolling()):
