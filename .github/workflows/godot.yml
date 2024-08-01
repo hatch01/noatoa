@@ -2,7 +2,7 @@ name: "godot-ci export"
 on: push
 permissions:
   contents: write
-  
+
 env:
   GODOT_VERSION: 4.2.1
 
@@ -37,5 +37,5 @@ jobs:
       - name: Deploy to GitHub Pages 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v4
         with:
-          branch: gh-pages # The branch the action should deploy to.
-          folder: build/web # The folder the action should deploy.
+          branch: gh-pages
+          folder: build/web
